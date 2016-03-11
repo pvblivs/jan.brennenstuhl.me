@@ -1,10 +1,1 @@
-{
-  "meta": {
-    "username": "jbspeakr",
-    "repositoryName": "www.redrabb.it",
-    "branch": "gh-pages"
-  },
-  "theme": {
-    "name": "uno-zen"
-  }
-}
+{"meta":{"username":"jbspeakr","repositoryName":"www.redrabb.it","branch":"gh-pages","cname":"www.redrabb.it"},"site":{"url":"http://www.redrabb.it"},"socialnetwork":{},"theme":{"name":"uno-zen","url":"//jbspeakr.github.io/www.redrabb.it/themes/uno-zen"}}
