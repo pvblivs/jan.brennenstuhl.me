@@ -1,6 +1,6 @@
 = Why AWS CloudFormation sucks?!
 :published_at: 2015-12-21
-:hp-tags: aws, cloud development
+:hp-tags: aws, cloud development, devops
 :hp-alt-title: aws cloudformation sucks
 
 link:https://aws.amazon.com/cloudformation/[AWS CloudFormation] (CFN) is a file-based interface for provisioning AWS resources and in that way is Amazons answer on the 'link:http://www.thoughtworks.com/insights/blog/infrastructure-code-reason-smile[Infrastructure as Code]' paradigm. I am a huge fan of this approach and CFN is a big step into the right direction as it supports not just common DevOps ideas, by allowing devs to create, update and delete the operational infrastructure they need with their own tools (a text editor, version control and tests), but also enables you to think different about your IT infrastructure and how to work with it (e.g. just think about immutable stacks). However, I see some issues that become more important if you work with CloudFormation on a daily basis as me and my colleagues at ImmobilienScout24 do...
