@@ -1,4 +1,4 @@
-= AWS Monocyte: Lets Build a Cloud Immune System
+= AWS Monocyte: Let's Build a Cloud Immune System
 :published_at: 2015-03-18
 :hp-tags: cloud development, aws
 :hp-alt-title: cloud privacy aws monocyte
