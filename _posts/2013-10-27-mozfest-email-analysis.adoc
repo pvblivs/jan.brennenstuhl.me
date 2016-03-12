@@ -1,7 +1,7 @@
 = MozFest: Email Life Analysis
 :hp-alt-title: mozfest email analysis
 :published_at: 2013-10-27
-:hp-tags: D3JS, Data Analytics
+:hp-tags: d3js, data analytics
 
 There are lots of great things going on at this year's MozFest in London, but one of the coolest, scariest and probably most powerfull tool however is coming from a couple of MIT students. Its name: link:https://immersion.media.mit.edu/[Immersion]. Its mission: Analyzing and visualizing your personal email-metadata, empowering you to become almost as mighty as the blackhatters over at NSA, GCHQ or whatsoever.
 
