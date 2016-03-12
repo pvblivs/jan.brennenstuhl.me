@@ -1,0 +1,29 @@
+= Github-Licker: A Github License Checker
+:published_at: 2015-03-25
+:hp-tags: python, github, open source
+:hp-alt-title: github license checker
+
+On Github, every organisation with a fast growing open-source codebase quickly figures out a couple of shortcomings regarding the Github web interface. Especially, when it comes to Github organisations that are already around for some time, you often find some information missing that could propably help managing and controlling your organisations repositories...
+
+== Github & Licenses
+
+For months now, Github addresses in particular the often discussed license-problematic by implementing the link:https://help.github.com/articles/open-source-licensing/[License Picker] feature and introducing the link:http://choosealicense.com/[choosealicense.com] information page. That's great if you start with new projects and repositories, but what's missing is some kind of license overview and maintaining functionality that allows dealing with licenses of already existing repos.
+
+For that reason, I just built a small Python tool to help you getting an overview of your repos licenses: link:https://github.com/jbspeakr/github-licker[Github-Licker], a Github License Checker!
+
+== Github License Checker
+
+Using the link:https://developer.github.com/v3/[Github API v3] including the link:https://developer.github.com/v3/licenses/[Licenses API] developer preview, Licker is able to check licenses of all repositories in your Github organisation. It searches all your own repositories (no forks!) and especially helps  identifying repos without license files.
+
+```
+pip install github-licker
+licker -h
+
+usage:
+    licker [TOKEN] [options]
+
+options:
+    -o, --organisation=ORGANISATION  the Github organisation you want to check [default: ImmobilienScout24]
+```
+
+Github-Licker itself is licensed under link:https://github.com/ImmobilienScout24/aws-monocyte/blob/master/LICENSE.txt[Apache License, Version 2.0], for what reason you can easily link:https://github.com/jbspeakr/github-licker[help me to improve it]!
