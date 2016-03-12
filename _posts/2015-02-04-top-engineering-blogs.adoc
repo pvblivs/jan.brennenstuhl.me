@@ -1,0 +1,25 @@
+= My Favorite Web Engineering Blogs
+:published_at: 2015-02-04
+:hp-tags: web development, tech culture
+:hp-alt-title: top engineering blogs
+
+Today I'd like to share my favorite web engineering blogs by successfull startups and mature companies around the globe!
+
+In my humble world, knowledge-transfer by experience-sharing is a key to success. Not just for those consuming, but especially for those producing information. This is what science calls link:https://en.wikipedia.org/wiki/Experiential_learning[_learning through reflection on doing_]. Following this philosophy, companies sharing their web development experiences do not just teach and inspire others, but also get to know their solutions better.
+
+== Sharing is Caring
+
+I regularly study post from the following ten engineering blogs by successful web companies from around the globe. They usually let me see the diverse web tech world through different eyes and also help me solve similar problems in my daily work-environment.
+
+* link:http://nerds.airbnb.com/[Airbnb Engineering Nerds]
+* link:http://www.ebaytechblog.com/[Ebay Tech]
+* link:https://codeascraft.com/[Etsy Code as Craft]
+* link:http://engineering.foursquare.com/[Foursquare Engineering]
+* link:http://instagram-engineering.tumblr.com/[Instagram Engineering]
+* link:https://engineering.linkedin.com/blog[LinkedIn Engineering]
+* link:http://techblog.netflix.com/[Netflix Tech]
+* link:https://www.paypal-engineering.com/[Paypal Engineering]
+* link:https://developers.soundcloud.com/blog[Soundcloud Backstage]
+* link:https://labs.spotify.com/[Spotify Labs]
+
+I advice you to add those blogs to your personal feed-reader and to stay curious. If you're working for a startup or a more or less grown company, make sure to establish your own engineering/ developer blog and start sharing your problems and solutions today.
