@@ -44,8 +44,6 @@ Opening up their data helps public transport companies to become passive innovat
 
 As a result, there likely will be more competing products on the market, leading directly to more innovation and finally better services for customers of public transportation companies!
 
-TIP: If you are working for a public transportation company and you want to open up your data, make sure to get in contact with the link:http://transport.okfn.org/[Open Knowledge Foundation] in your area!
-
 === Transparency through Open Transport Data
 
 Furthermore, open data helps transportation companies and not just transportation companies to become more transparent. As a consequence this helps them not just to follow the zeitgeist and to provide better information policies for their customers but also to become more self-aware.
@@ -55,3 +53,7 @@ Hence, transparency through Open Transport Data is a great deal as it allows ope
 === Image Upgrade through Open Transport Data
 
 In the end, everything above results in an massive image upgrade for public transportation companies and likely in more, happy and returning customers.
+
+---
+
+If you are working for a public transportation company and you want to open up your data, make sure to get in contact with the link:http://transport.okfn.org/[Open Knowledge Foundation] in your area!
