@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Python: Convert Tuple List to Dictionary</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <link rel="apple-touch-icon" sizes="57x57" href="//jan.brennenstuhl.me/themes/uno-zen/assets/img/apple-touch-icon-57x57.png?v=E669GYkjyb?v=1.0.0">
+    <link rel="apple-touch-icon" sizes="60x60" href="//jan.brennenstuhl.me/themes/uno-zen/assets/img/apple-touch-icon-60x60.png?v=E669GYkjyb?v=1.0.0">
+    <link rel="apple-touch-icon" sizes="72x72" href="//jan.brennenstuhl.me/themes/uno-zen/assets/img/apple-touch-icon-72x72.png?v=E669GYkjyb?v=1.0.0">
+    <link rel="apple-touch-icon" sizes="76x76" href="//jan.brennenstuhl.me/themes/uno-zen/assets/apple-touch-icon-76x76.png?v=E669GYkjyb?v=1.0.0">
+    <link rel="apple-touch-icon" sizes="114x114" href="//jan.brennenstuhl.me/themes/uno-zen/assets/img/apple-touch-icon-114x114.png?v=E669GYkjyb?v=1.0.0">
+    <link rel="apple-touch-icon" sizes="120x120" href="//jan.brennenstuhl.me/themes/uno-zen/assets/img/apple-touch-icon-120x120.png?v=E669GYkjyb?v=1.0.0">
+    <link rel="apple-touch-icon" sizes="144x144" href="//jan.brennenstuhl.me/themes/uno-zen/assets/img/apple-touch-icon-144x144.png?v=E669GYkjyb?v=1.0.0">
+    <link rel="apple-touch-icon" sizes="152x152" href="//jan.brennenstuhl.me/themes/uno-zen/assets/img/apple-touch-icon-152x152.png?v=E669GYkjyb?v=1.0.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="//jan.brennenstuhl.me/themes/uno-zen/assets/img/apple-touch-icon-180x180.png?v=E669GYkjyb?v=1.0.0">
+    <link rel="icon" type="image/png" href="//jan.brennenstuhl.me/themes/uno-zen/assets/img/favicon-32x32.png?v=E669GYkjyb?v=1.0.0" sizes="32x32">
+    <link rel="icon" type="image/png" href="//jan.brennenstuhl.me/themes/uno-zen/assets/img/favicon-194x194.png?v=E669GYkjyb?v=1.0.0" sizes="194x194">
+    <link rel="icon" type="image/png" href="//jan.brennenstuhl.me/themes/uno-zen/assets/img/favicon-96x96.png?v=E669GYkjyb?v=1.0.0" sizes="96x96">
+    <link rel="icon" type="image/png" href="//jan.brennenstuhl.me/themes/uno-zen/assets/img/android-chrome-192x192.png?v=E669GYkjyb?v=1.0.0" sizes="192x192">
+    <link rel="icon" type="image/png" href="//jan.brennenstuhl.me/themes/uno-zen/assets/img/favicon-16x16.png?v=E669GYkjyb?v=1.0.0" sizes="16x16">
+    <link rel="manifest" href="//jan.brennenstuhl.me/themes/uno-zen/assets/img/manifest.json?v=E669GYkjyb?v=1.0.0">
+    <link rel="mask-icon" href="//jan.brennenstuhl.me/themes/uno-zen/assets/img/safari-pinned-tab.svg?v=E669GYkjyb?v=1.0.0" color="#e74c3c">
+    <link rel="shortcut icon" href="//jan.brennenstuhl.me/themes/uno-zen/assets/img/favicon.ico?v=E669GYkjyb?v=1.0.0">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="//jan.brennenstuhl.me/themes/uno-zen/assets/img/mstile-144x144.png?v=E669GYkjyb?v=1.0.0">
+    <meta name="msapplication-config" content="//jan.brennenstuhl.me/themes/uno-zen/assets/img/browserconfig.xml?v=E669GYkjyb?v=1.0.0">
+    <meta name="theme-color" content="#e74c3c">
+    <link rel="stylesheet" type="text/css" href="//jan.brennenstuhl.me/themes/uno-zen/assets/css/uno-zen.css?v=1.0.0" />
+    <link rel="canonical" href="http://jan.brennenstuhl.me/2015/04/28/python-tuple-list-dictionary.html" />
+    
+    <meta property="og:site_name" content="Jan Brennenstuhl" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Python: Convert Tuple List to Dictionary" />
+    <meta property="og:description" content="Using Python Docopt (for beautiful command-line interfaces) I recently had the problem of converting a list of tuples into a dictionary. In this post I&amp;#8217;d like to document the solution I came up with&amp;#8230;&amp;#8203; &quot;&quot;&quot; usage:     mytool..." />
+    <meta property="og:url" content="http://jan.brennenstuhl.me/2015/04/28/python-tuple-list-dictionary.html" />
+    <meta property="article:published_time" content="2015-04-27T22:00:00.000Z" />
+    <meta property="article:modified_time" content="2016-03-12T12:18:44.814Z" />
+    <meta property="article:tag" content="python" />
+    <meta property="article:tag" content="howto" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Python: Convert Tuple List to Dictionary" />
+    <meta name="twitter:description" content="Using Python Docopt (for beautiful command-line interfaces) I recently had the problem of converting a list of tuples into a dictionary. In this post I&amp;#8217;d like to document the solution I came up with&amp;#8230;&amp;#8203; &quot;&quot;&quot; usage:     mytool..." />
+    <meta name="twitter:url" content="http://jan.brennenstuhl.me/2015/04/28/python-tuple-list-dictionary.html" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "Jan Brennenstuhl",
+    "author": {
+        "@type": "Person",
+        "name": "Jan Brennenstuhl",
+        "image": "https://avatars.githubusercontent.com/u/2291138?v=3",
+        "url": "undefined/author/undefined",
+        "sameAs": "http://jan.brennenstuhl.me"
+    },
+    "headline": "Python: Convert Tuple List to Dictionary",
+    "url": "http://jan.brennenstuhl.me/2015/04/28/python-tuple-list-dictionary.html",
+    "datePublished": "2015-04-27T22:00:00.000Z",
+    "dateModified": "2016-03-12T12:18:44.814Z",
+    "keywords": "python,  howto",
+    "description": "Using Python Docopt (for beautiful command-line interfaces) I recently had the problem of converting a list of tuples into a dictionary. In this post I&amp;#8217;d like to document the solution I came up with&amp;#8230;&amp;#8203; &quot;&quot;&quot; usage:     mytool..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost ?" />
+    <link rel="alternate" type="application/rss+xml" title="Jan Brennenstuhl" href="http://jan.brennenstuhl.me/rss" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
+  </head>
+  <body class="post-template tag-python tag-howto">
+    <header id="menu-button" class="expanded">
+      <a><i class="icon icon-list"></i></a>
+    </header>
+    <aside class="cover" style="background: url(https://drscdn.500px.org/photo/137423293/q%3D80_m%3D2000/17ca7dd794eb565790909405ee967925) center/cover no-repeat fixed">
+      <div class="cover container">
+        <div class="profile">
+          <a id="avatar-link" title="link to homepage for Jan Brennenstuhl" href="http://jan.brennenstuhl.me/#open">
+            <img src="http://jan.brennenstuhl.me/images/jan-brennenstuhl.jpg" alt="Jan Brennenstuhl avatar" class="profile avatar rounded hvr-buzz-out" />
+            <h1 id="profile-title">Jan Brennenstuhl</h1>
+            <h3 id="profile-resume"></h3>
+          </a>
+    
+          <hr class="divider long" />
+          <p>I&#x27;m a full-stack web developer, open data activist &amp; clean code artist. I live in Berlin, blog about code, tech and cloud. Currently working for Immobilienscout24.de </p>
+          <hr class="divider short" />
+          <div class="navigation">
+            <div class="profile contact">
+              
+              <nav class="navigation right">
+                <ul class="social expanded">
+              
+              
+                  <!-- Twitter -->
+                  <li class="social item hvr-grow-rotate">
+                    <a rel="me" href="https://twitter.com/jbspeakr" title="Twitter account">
+                      <i class='icon icon-social-twitter'></i>
+                      <span class="label">Twitter</span>
+                    </a>
+                  </li>
+              
+              
+                  <!-- Github -->
+                  <li class="social item hvr-grow-rotate">
+                    <a rel="me" href="https://github.com/jbspeakr" title="Github account">
+                      <i class='icon icon-social-github'></i>
+                      <span class="label">Github</span>
+                    </a>
+                  </li>
+                  </li>
+              
+                  <!-- Github -->
+                  <li class="social item hvr-grow-rotate">
+                    <a rel="me" href="https://www.instagram.com/jbspeakr/" title="Instagram account">
+                      <i class='icon icon-social-instagram'></i>
+                      <span class="label">Instagram</span>
+                    </a>
+                  </li>
+                  </li>
+              
+              
+              
+                  <!-- LinkedIn -->
+                  <li class="social item hvr-grow-rotate">
+                    <a rel="me" href="https://linkedin.com/in/jbspeakr" title="LinkedIn account">
+                      <i class='icon icon-social-linkedin'></i>
+                      <span class="label">LinkedIn</span>
+                    </a>
+                  </li>
+              
+                  <!-- Email -->
+                  <li class="social item hvr-grow-rotate">
+                    <a rel="me" href="mailto:jan@brennenstuhl.me" title="Email jan@brennenstuhl.me">
+                      <i class='icon icon-mail'></i>
+                      <span class="label">Email</span>
+                    </a>
+                  </li>
+              
+                </ul>
+              </nav>
+              <!-- <section class="icon icon-search" id="search-container">
+      <hr class="divider short" />
+      <form id="search-form">
+        <input type="text", name="search", placeholder="git, css, javascript,..." id="search-field" />
+      </form>
+    </section>
+     -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </aside>
+    <main>
+      <section id="search-results"></section>
+      <section class="content">
+        
+
+  <article class="post tag-python tag-howto">
+    <header>
+      <div class="post meta">
+        <time datetime="28 Apr 2015">28 Apr 2015</time>
+        <span class="post tags">in <a href="http://jan.brennenstuhl.me/tag/python">python</a> <a href="http://jan.brennenstuhl.me/tag/howto"> howto</a></span>
+
+
+        <span class="post reading-time"> ~ <span></span> read.</span>
+      </div>
+      <a alt="Tweet 'Python: Convert Tuple List to Dictionary'" href="https://twitter.com/intent/tweet?text=Python%3A%20Convert%20Tuple%20List%20to%20Dictionary%20%C2%BB&amp;hashtags=python, howto&amp;url=http://jan.brennenstuhl.me/2015/04/28/python-tuple-list-dictionary.html">
+        
+        <h1 class="icon-reverse icon-social-twitter-post" id="post-title">Python: Convert Tuple List to Dictionary</h1>
+      </a>
+    </header>
+
+    <div id="post-content" class="post tag-python tag-howto">
+      <div class="paragraph">
+<p>Using <a href="https://github.com/docopt/docopt">Python Docopt</a> (for beautiful command-line interfaces) I recently had the problem of converting a list of tuples into a dictionary. In this post I&#8217;d like to document <a href="https://gist.github.com/jbspeakr/c7c4fcb9ee143cf7e9eb">the solution</a> I came up with&#8230;&#8203;</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>"""
+usage:
+    mytool [options]
+
+options:
+    --foo-bar=PARAM1,PARAM2,... params to do stuff with
+        [default: key1.value1,key1.value2,key2.value2]
+"""
+
+from docopt import docopt
+from collections import defaultdict
+
+
+def run():
+    params = [tuple(param.strip().split('.')) for param in arguments["--foo-bar"].split(",")]
+    params = convert_tuple_list_to_dictionary(ignored_resources)
+
+def convert_tuple_list_to_dictionary(list_of_tuple):
+    dictionary = defaultdict(list)
+    for k, v in list_of_tuple:
+        dictionary[k].append(v)
+
+    return dictionary
+
+if __name__ == "__main__":
+    run()</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>This code is able to convert the parameter value string "key1.value1,key1.value2,key2.value2" into the following dictionary:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>{
+	'key1': ['value1', 'value2'],
+    'key2': ['value2']
+}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>If you know a leaner solution to solve this problem, please write a comment!</p>
+</div>
+    </div>
+
+    <div class="post related">
+
+    </div>
+
+    <footer class="post comments">
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+        var disqus_shortname = 'janbrennenstuhl'; // required: replace example with your forum shortname
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </footer>
+
+  </article>
+
+
+        <footer>
+          <span class="copyright">
+            &copy; 2016. All rights reserved. Built with <a href="https://github.com/Kikobeats/uno-zen" target="_blank">Uno Zen</a> under <a href="http://hubpress.io/" target="_blank">HubPress</a>.
+          </span>
+        </footer>
+      </section>
+    </main>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
+
+        hljs.initHighlightingOnLoad();      
+      </script>
+    <script src="//jan.brennenstuhl.me/themes/uno-zen/assets/js/uno-zen.js?v=1.0.0" type="text/javascript" charset="utf-8"></script>
+  </body>
+</html>
