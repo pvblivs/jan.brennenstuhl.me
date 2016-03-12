@@ -1,7 +1,7 @@
 = Open Transport & the Pirates Party Germany
 :hp-alt-title: open transport - pirates party
 :published_at: 2013-05-29
-:hp-tags: Open Data, Politics
+:hp-tags: open data, politics
 
 Last weekend, I was invited by the Pirates Party in the Landtag of North Rhine-Westphalia to their so-called _Verkehrswendekonferenz_ (transport revolution conference) to talk about the role of open transport data for future public transport systems. In the following you'll find some of the point I told them...
 
