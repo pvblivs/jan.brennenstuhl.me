@@ -1,7 +1,7 @@
 = 4 Tools for Effective AngularJS Development
 :hp-alt-title: effective angularjs
 :published_at: 2013-11-03
-:hp-tags: angularjs, frontend
+:hp-tags: angularjs, frontend, web development
 
 Several months ago, right after the latest Google IO conference in May 2013, I started playing around with Google's link:http://angularjs.org/[AngularJS]. Back then, I had this small fun-project (later called link:http://www.domainhack.me[domainhack.me]) in mind, which should soon become my very first AngularJS-based, productive project.
 
