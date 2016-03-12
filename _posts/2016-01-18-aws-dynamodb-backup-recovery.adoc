@@ -1,6 +1,6 @@
 = AWS: DynamoDB Backup & Recovery
 :published_at: 2016-01-18
-:hp-tags: aws, cloud development, database
+:hp-tags: aws, cloud development, devops
 :hp-alt-title: aws dynamodb backup recovery
 
 "Amazon DynamoDB is a fully managed NoSQL database service [...]". That's what Amazon states in the link:https://aws.amazon.com/dynamodb/faqs/[DynamoDB FAQs]. However, their definition is not quite what I would understand as fully managed. It's missing counter-measures against the human error. For that reason, my colleagues at ImmobilienScout24 and me built a DynamoDB backup and recovery solution, our DynamoDB safety net...
