@@ -2,11 +2,11 @@
 <browserconfig>
   <msapplication>
     <tile>
-      <square70x70logo src="/mstile-70x70.png?v=lkkGrwpwg3"/>
-      <square150x150logo src="/mstile-150x150.png?v=lkkGrwpwg3"/>
-      <square310x310logo src="/mstile-310x310.png?v=lkkGrwpwg3"/>
-      <wide310x150logo src="/mstile-310x150.png?v=lkkGrwpwg3"/>
-      <TileColor>#00aba9</TileColor>
+      <square70x70logo src="//jan.brennenstuhl.me/themes/uno-zen/assets/img/mstile-70x70.png?v=E669GYkjyb"/>
+      <square150x150logo src="//jan.brennenstuhl.me/themes/uno-zen/assets/img/mstile-150x150.png?v=E669GYkjyb"/>
+      <square310x310logo src="//jan.brennenstuhl.me/themes/uno-zen/assets/img/mstile-310x310.png?v=E669GYkjyb"/>
+      <wide310x150logo src="//jan.brennenstuhl.me/themes/uno-zen/assets/img/mstile-310x150.png?v=E669GYkjyb"/>
+      <TileColor>#ffffff</TileColor>
     </tile>
   </msapplication>
 </browserconfig>
