@@ -1,0 +1,28 @@
+= Domainhack AngularJS
+:published_at: 2013-05-20
+:hp-tags: AngularJS, Frontend, Open Source
+:hp-alt-title: Domainhack.me - Hands on AngularJS
+
+After visiting the _Google I/O Extended 2013 Berlin_ at the famous CBase and watching the wordy opening keynote, I decided to go and get my hands dirty with hacking around using link:[Google's AngularJS], transforming a former Django-project of mine. Here is what I did so far...
+
+== Domainhack.me - The Project
+
+Before I'll start explaining, how easily and quick I was able to create a usefull web-app for webworkers using nothing more than *AngularJS* in combination with plain old JS and JSON, I will start with some details about the project itself.
+
+link:http://www.domainhack.me[Domainhack.me] is a simple tool, enabling people like you and me to identify a certain word's lnk:http://en.wikipedia.org/wiki/Domain_hack[domain hack] potential. What the app simply does is to check whether the user's input contains TLD's and then presents its results in a nice and clean table. Go and check this out by yourself if you still are don't know what I am talkig about...
+
+I built this very same functionality a few month ago using Python and Django, some AJAX code and a MySQL database. This in fact wasn't the greatest idea as it's a lot overhead and furthermore poor, inadequate use of technology. However, I decided to try *AngularJS* and to see how I could shrink these problems.
+
+=== Why AngularJS?
+
+After watching Google's link:https://twitter.com/bradlygreen[Brad Green] and link:https://twitter.com/mhevery[Miško Hevery] talking about link:https://www.youtube.com/watch?v=HCR7i5F5L8c[Design Decisions in AngularJS] at the Google I/O 2013 conference, I decided to dive into **AngularJS** because in my eyes, it seemed to be a clean and clever way to build rich and flexible apps using nothing more than a couple lines of plain old JavaScript wit no need to handle all the listeners and DOM modifiers yourself.
+
+I thought that *AngularJS* could probably help me solve all the design and technology overhead issues I had with the former version of my domain hack app - and in the end it totally did!
+
+=== Domain Hacking using AngularJS
+
+The first thing I did was to create a new JSON representation of my TLD datasets. Afterwards I translated the former Python logic (which is basically just a few lines of string comparison) into JavaScript and additionally started to setup the *AngularJS* basics.
+
+Finally link:http://www.domainhack.me[Domainhack.me] just uses Angulars _ng-app_, _ng-view_ and _ng-repeat_ modules. A single controller wires everything together by not just loading the JSON file containing static TLD data, but also watching the user input field for changes. All in all, the final JS file includes 45 lines of code and that is not just *Angular*-specific code but also includes the entire business logic!
+
+I for one am totally happy with that outcome as I am now able to run my simple domain hacking app right on link:https://github.com/jbspeakr/domainhack.me[Github Pages]. Let me know what you think!
