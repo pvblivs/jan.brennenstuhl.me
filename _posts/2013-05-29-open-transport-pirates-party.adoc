@@ -1,0 +1,57 @@
+= Open Transport & the Pirates Party Germany
+:hp-alt-title: open transport - pirates party
+:published_at: 2013-05-29
+:hp-tags: Open Data, Politics
+
+Last weekend, I was invited by the Pirates Party in the Landtag of North Rhine-Westphalia to their so-called _Verkehrswendekonferenz_ (transport revolution conference) to talk about the role of open transport data for future public transport systems. In the following you'll find some of the point I told them...
+
+== What does Open Transport mean?
+
+When we want to talk about open data in general, we need to specify two things first:
+
+1. We need to define _open_,
+2. We need to explain _what data_ we are talking about.
+
+So let's start!
+
+=== Open Definition
+
+Of course different people have various ideas of openness. For that reason, the Open Knowledge Foundation (I am voluntary working for) defined _open_ in their link:http://opendefinition.org/[Open Definition], which in short says:
+
+> A piece of data or content is open if anyone is free to use, reuse, and redistribute it — subject only, at most, to the requirement to attribute and/or share-alike.
+
+In the end you can resume, that everything being published under an link:http://opendefinition.org/licenses/[open license] is in fact open! So this was (theoretically) quite easy to answer, but what data are we talking about anyway?
+
+=== Open Transport Data
+
+Open Transport Data means every available raw datasets in the sphere of public and private transportation. This includes not just standard data such as timetables, routes and the station's geo-locations, but also more advanced data like real- or near-time location data, traffic as well as jam information, elevator datasets and exit locations, traffic event data, and much more...
+
+I think you got it, so let's go on and try to write together some facts about the role of open transport data for future transport systems!
+
+== Why Open Transport Data?
+
+In my eyes, there are at least three key issues public transport companies are able to feature by providing access to their transport-related data:
+
+1. Innovation promotion/ open innovation,
+2. Transparency/ objectivity,
+3. Image upgrade.
+
+Of course, each of these three point leds to several other improvements and makes transportation become smarter and citizen-orientated.
+
+=== Open Innovation through Open Transport Data
+
+Opening up their data helps public transport companies to become passive innovation promoters not just in their region, but internationally! As startups, web agencies, universities and further internet companies are going to become able and allowed to easily use, mix and reuse transport data in their (commercial) tools, apps and products, the probability that these stakeholders come up with innovative ideas is growing exponentially.
+
+As a result, there likely will be more competing products on the market, leading directly to more innovation and finally better services for customers of public transportation companies!
+
+TIP: If you are working for a public transportation company and you want to open up your data, make sure to get in contact with the link:http://transport.okfn.org/[Open Knowledge Foundation] in your area!
+
+=== Transparency through Open Transport Data
+
+Furthermore, open data helps transportation companies and not just transportation companies to become more transparent. As a consequence this helps them not just to follow the zeitgeist and to provide better information policies for their customers but also to become more self-aware.
+
+Hence, transparency through Open Transport Data is a great deal as it allows opened up companies to participate affected people both internally and externally.
+
+=== Image Upgrade through Open Transport Data
+
+In the end, everything above results in an massive image upgrade for public transportation companies and likely in more, happy and returning customers.
