@@ -1,0 +1,21 @@
+= 4 Tools for Effective AngularJS Development
+:hp-alt-title: effective angularjs
+:published_at: 2013-11-03
+:hp-tags: AngularJS, Frontend
+
+Several months ago, right after the latest Google IO conference in May 2013, I started playing around with Google's link:http://angularjs.org/[AngularJS]. Back then, I had this small fun-project (later called link:http://www.domainhack.me[domainhack.me]) in mind, which should soon become my very first AngularJS-based, productive project.
+
+image::http://jan.brennenstuhl.me/images/yeoman_toolset.jpg[]
+
+With AngularJS being on everyone's lips nowadays, also dev-teams at link:http://www.immobilienscout24.de[Immobilienscout24.de] started some first attempts, trying to adopt this new, hyped MVC framework for our company's very own use cases. However, these tentative steps could not (yet) lead to a final decision for or against a productive usage of AngularJS in our stack...
+
+## Howto: Effective AngularJS
+
+Nevertheless, I would like to share four very useful tools, which can help speeding up not just the AngularJS project setup, but also link:http://newtriks.com/2013/06/11/automating-angularjs-with-yeoman-grunt-and-bower/[automating the everyday AngularJS] development livecycle: 
+
+* link:http://yeoman.io/[**Yeoman**] - Providing a collection of tools and best practices to make developing for the web even better, Yeoman (using the link:https://github.com/yeoman/generator-angular[Yeoman AngularJS-Generator]) helps setting up the scaffolding of a AngularJS project, including the auto-configuration of Grunt-tasks.
+* link:http://bower.io/[**Bower**] - As a dependency manager, Bower allows you to forget about manual downloads and the management of external scripts and comes in as a Yeoman dependency.
+* link:http://gruntjs.com/[**Grunt**] - Being a JS-taskrunner, Grunt helps with building, previewing and testing projects. Like Bower, also Grunt works great with Yeoman!
+* link:http://karma-runner.github.io[**Karma**] - Last but not least, Karma enables you to test your code against multiple real browsers. To setup a fully featured, testing-ready project there is nothing more to do than using the Yeoman AngularJS-Generator from above (which makes use of the link:https://github.com/yeoman/generator-karma[Yeoman Karma Generator]). 
+
+All in all, these four tools can give your upcoming projects a massive boost, speeding up your AngularJS development and making it probably as effective as possible. I will definitely try to use them on a regular basis. I am pretty sure that this stack of amazing tools is going to push the popularity of AngularJs even further!
