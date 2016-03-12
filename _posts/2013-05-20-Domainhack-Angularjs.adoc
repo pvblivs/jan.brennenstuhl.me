@@ -1,7 +1,7 @@
-= Domainhack AngularJS
+= Domainhack.me - Hands on AngularJS
 :published_at: 2013-05-20
 :hp-tags: AngularJS, Frontend, Open Source
-:hp-alt-title: Domainhack.me - Hands on AngularJS
+:hp-alt-title: Domainhack Angularjs
 
 After visiting the _Google I/O Extended 2013 Berlin_ at the famous CBase and watching the wordy opening keynote, I decided to go and get my hands dirty with hacking around using link:[Google's AngularJS], transforming a former Django-project of mine. Here is what I did so far...
 
