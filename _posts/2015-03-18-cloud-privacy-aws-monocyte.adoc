@@ -1,6 +1,6 @@
 = AWS Monocyte: Let's Build a Cloud Immune System
 :published_at: 2015-03-18
-:hp-tags: aws, backend, cloud development
+:hp-tags: aws, backend, cloud development, devops
 :hp-alt-title: cloud privacy aws monocyte
 
 With Ireland and Frankfurt being available as AWS regions nowadays, Amazon (more or less) tried to extinguish EU and especially German legal concerns regarding storage and processing of privacy-related data. However, for European companies it remains difficult to prevent (accidental) usage of services and resources outside the EU, as there is still no standardized way to restrict AWS-account rights on this region-level. Especially in open, link:https://en.wikipedia.org/wiki/DevOps[DevOps]-inspired company cultures this becomes a major issue:
