@@ -1,7 +1,7 @@
 = Datensparsam.de & the Principle of Data Economy
 :hp-alt-title: principle of data economy
 :published_at: 2013-05-21
-:hp-tags: Python, Django, Open Source
+:hp-tags: python, django, open source
 
 With link:https://www.datensparsam.de[Datensparsam.de] I recently established Germany's first and only civic app focussing on the principle of data economy. The form generator helps people to easily opt out at their registration offices. Here I'd like to write some words about the hows and whys that led to the final web app...
 
