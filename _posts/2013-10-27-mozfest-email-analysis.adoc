@@ -1,0 +1,14 @@
+= MozFest: Email Life Analysis
+:hp-alt-title: mozfest email analysis
+:published_at: 2013-10-27
+:hp-tags: D3JS, Data Analytics
+
+There are lots of great things going on at this year's MozFest in London, but one of the coolest, scariest and probably most powerfull tool however is coming from a couple of MIT students. Its name: link:https://immersion.media.mit.edu/[Immersion]. Its mission: Analyzing and visualizing your personal email-metadata, empowering you to become almost as mighty as the blackhatters over at NSA, GCHQ or whatsoever.
+
+All you have to do to dive into the world of email life analysis is allowing Immersion to access your GMail-account like a usual app. The tool immediately starts fetching your email's metadata and then builds pretty nice graphs (using link:http://d3js.org/[D3.js]) showing your clustered contacts, their connections and insightful statistics - things you probably didn't know about yourself. And that's really scary!
+
+> Just like a cubist painting, Immersion presents users with a number of different perspectives of their email data. It provides a tool for self-reflection at a time where the zeitgeist is one of self-promotion. It provides an artistic representation that exists only in the presence of the visitor. It helps explore privacy by showing users data that they have already shared with others. 
+
+Immersion gives a pretty nice overview about what it means when governments and companies around the globe tell us that they are "collecting just metadata" and not the "real content" of a communication. It's a must to try! 
+
+video::69464265[vimeo]
