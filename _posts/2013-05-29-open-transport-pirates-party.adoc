@@ -53,7 +53,3 @@ Hence, transparency through Open Transport Data is a great deal as it allows ope
 === Image Upgrade through Open Transport Data
 
 In the end, everything above results in an massive image upgrade for public transportation companies and likely in more, happy and returning customers.
-
----
-
-If you are working for a public transportation company and you want to open up your data, make sure to get in contact with the link:http://transport.okfn.org/[Open Knowledge Foundation] in your area!
