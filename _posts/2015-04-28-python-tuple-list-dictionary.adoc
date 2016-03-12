@@ -1,0 +1,46 @@
+= Python: Convert Tuple List to Dictionary
+:published_at: 2015-04-28
+:hp-tags: python, howto
+:hp-alt-title: python tuple list dictionary
+
+Using link:https://github.com/docopt/docopt[Python Docopt] (for beautiful command-line interfaces) I recently had the problem of converting a list of tuples into a dictionary. In this post I'd like to document link:https://gist.github.com/jbspeakr/c7c4fcb9ee143cf7e9eb[the solution] I came up with...
+
+```
+"""
+usage:
+    mytool [options]
+
+options:
+    --foo-bar=PARAM1,PARAM2,... params to do stuff with
+        [default: key1.value1,key1.value2,key2.value2]
+"""
+
+from docopt import docopt
+from collections import defaultdict
+
+
+def run():
+    params = [tuple(param.strip().split('.')) for param in arguments["--foo-bar"].split(",")]
+    params = convert_tuple_list_to_dictionary(ignored_resources)
+
+def convert_tuple_list_to_dictionary(list_of_tuple):
+    dictionary = defaultdict(list)
+    for k, v in list_of_tuple:
+        dictionary[k].append(v)
+
+    return dictionary
+
+if __name__ == "__main__":
+    run()
+```
+
+This code is able to convert the parameter value string "key1.value1,key1.value2,key2.value2" into the following dictionary:
+
+```
+{
+	'key1': ['value1', 'value2'],
+    'key2': ['value2']
+}
+```
+
+If you know a leaner solution to solve this problem, please write a comment!
