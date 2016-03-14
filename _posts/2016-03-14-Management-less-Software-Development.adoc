@@ -1,0 +1,13 @@
+= Management-less Software Development
+
+Anarchy: 
+1. http://www.ebaytechblog.com/2015/03/09/developer-anarchy-day/
+2. http://www.slideshare.net/fredgeorge/programmer-anarchy-chinese
+
+Github:
+1. http://opensoul.org/2012/06/05/whats-it-like-to-work-at-github/
+2. http://2ndscale.com/rtomayko/2012/management-style
+3. https://www.fastcompany.com/3020181/open-company/inside-githubs-super-lean-management-strategy-and-how-it-drives-innovation
+
+Bullshit Jobs:
+1. http://strikemag.org/bullshit-jobs/
