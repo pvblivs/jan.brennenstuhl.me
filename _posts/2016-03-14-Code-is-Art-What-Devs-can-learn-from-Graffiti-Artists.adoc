@@ -1,0 +1,31 @@
+= Code is Art - What Devs can learn from Graffiti Artists
+
+Code is art. This intended distinction towards classic engineering, science and the widely propagated crafting association is not a new idea in the self-conception of modern web developers. However, there is just few written or said about its implications. This text is about my understanding of 'Code is Art' and what we web developers can probably learn from old- and new-school graffiti artists...
+
+The fundamental assumption of the polarising 'Code is Art' attitude is that todays web development lacks repeatability on the one hand (which is a core approach of every engineer) and on the other hand is far from fundamental research in its scientific perception. In my eyes, that's totally reasonable. However, the question arises: What's web development if its not some kind of engineering nor science?
+
+Well, some would argue coding is craft and probably that's not all wrong, as an artisan according to [Wikipedia](https://en.wikipedia.org/wiki/Artisan) is "a skilled craft worker who makes or creates things by hand that may be functional [...]", whereas a [skilled craft worker](https://en.wikipedia.org/wiki/Skilled_worker) is someone "who has special skill, training, knowledge, and (usually acquired) ability in their work." 
+
+Both descriptions fit almost perfectly. However,  
+
+## Code is Art  & Beauty our Mission
+
+
+> Code isn't always just about the results it produces; in many respects, it's also about the process, and is very close to writing and drawing. -- [JasonLaPorte](http://c2.com/cgi/wiki?SoftwareIsArt)
+
+
+
+
+
+
+Unterscheidung zwischen Zielen:
+Fame (1UP), Businesserfolg (Morten Andersen),
+
+
+What Devs can learn from Graffiti Artists
+What Organisations can learn from Graffiti Artists
+What Management can learn from Graffiti Artists 
+
+http://c2.com/cgi/wiki?SoftwareIsArt
+http://c2.com/cgi/wiki?BeautyAintMyBusinessNoSir
+http://c2.com/cgi/wiki?SoftwareAsRockClimbing
