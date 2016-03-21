@@ -11,4 +11,5 @@ The micro-service architecture I am refering to in this article is the antipole 
 
 video::moNJBBm7avM[youtube]
 
-At ImmobilienScout24.de my team is responsible for parts of one of our core insertion flows. With thousands of customers-to-be every day 
+At ImmobilienScout24.de my team is responsible for parts of one of our core insertion flows. With thousands of customers-to-be every day and direct business impact, we not just need to be reliable as well as always up-and-running, but also fairly flexible and fast, allowing product improvements, bug fixes and multi-variant tests to be rolled out in near-realtime. Helping us to achieve those goals are our stateless micro-services...
+
