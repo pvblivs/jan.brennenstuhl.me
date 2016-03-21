@@ -6,4 +6,4 @@
 Following the common pendulum theorie, every tech debate oscillates between at least two currently trending topics. The same is true when it comes to micro-services vs. integrated systems. My team at ImmobilienScout24.de (currently) follows a radical micro-services approach, favouring smallest possible deployment units over integration. Why and how we chose to do so I'm going to explain in more detail...
 
 
-
+The micro-service architecture I am refering to in this article is the antipole of what is commonly known as integrated system. 
