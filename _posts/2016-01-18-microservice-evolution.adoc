@@ -1,0 +1,9 @@
+= Evolution of a Microservice
+:published_at: 2016-01-18
+:hp-tags: backend, web development
+:hp-alt-title: microservice evolution
+
+Following the common pendulum theorie, every tech debate oscillates between at least two currently trending topics. The same is true when it comes to micro-services vs. integrated systems. My team at ImmobilienScout24.de (currently) follows a radical micro-services approach, favouring smallest possible deployment units over integration. Why and how we chose to do so I'm going to explain in more detail...
+
+
+
