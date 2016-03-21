@@ -7,8 +7,8 @@ Following the common pendulum theorie, every tech debate oscillates between at l
 
 == Microservices, Self-contained Systems & Integrated Applications
 
-The micro-service architecture I am refering to in this article is the antipole of what is commonly known as integrated system. Between those two extrema, there is a whole bunch of manifestations, variations and adoptions like the so-called link:http://scs-architecture.org/index.html[Self-contained System] (SCS) architecture. However, I am usually not a big fan of some middle courses as in my experience they combine the downsides of both radical different ideas. In my eyes, sticking with and optimizing for one clean approach generally helps - as long as you can handle possible drawbacks.
-
-
+The micro-service architecture I am refering to in this article is the antipole of what is commonly known as integrated system. Between those two extrema, there is a whole bunch of manifestations, variations and adoptions like the so-called link:http://scs-architecture.org/index.html[Self-contained System] (SCS) architecture. However, I am usually not a big fan of some middle courses as in my experience they often combine not the intended advantages but the downsides of two radical different ideas. Furthermore, if a framework allows people to implement their first gut feelings instead of understanding the greater ideas, they tend to do so. In my eyes, sticking with and optimizing your infrastucture for one clean approach (not in a religious but explaining manner) generally helps creating easy repeatable and comprehensible software architecture - as long as you can handle possible drawbacks.
 
 video::moNJBBm7avM[youtube]
+
+At ImmobilienScout24.de my team is responsible for parts of one of our core insertion flows. With thousands of customers-to-be every day 
